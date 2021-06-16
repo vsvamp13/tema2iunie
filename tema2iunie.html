@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<style>
+		#demo {
+			text-decoration: dashed;
+		}
+		.zaz {
+			font-size: 14px;
+		}
+		#computed {
+			padding: 10px;
+			background-color: bisque;
+		}
+		.getatribcl {
+			font-family: 'Lucida Sans';
+		}
+		.tooglecl {
+			width: 200px;
+			height: 200px;
+			border-radius: 50%;
+			background-color: yellow;
+			text-align: center;
+		}
+		.text {
+			border-radius: unset;
+			background-color: lawngreen;
+			text-align: end;
+		}
+	</style>
+</head>
+<body>
+<p>BOM</p>
+<input id="newPage" type="button" onclick="myNewPage()" value="Location assign BOM"> <br>
+
+<input type="button" value="Back" onclick="goBack()">
+<div>
+<h4>DOM - Document Object Model</h4>
+
+<div class="tehnologie" id="tehno">Tehnologii:
+<ul class="list">
+	<li>HTML</li>
+	<li>CSS</li>
+</ul>
+</div>
+<div class="tehnologie">
+<p id="styling">Acesta este un text de forma care urmeaza sa fie stilizat</p>
+<p id="demo" class="zaz"></p>
+<div id="computed">Modificare cu getComputedStyle</div>
+<h4>La</h4>
+</div>
+<p id="color">Schimbarea culorii unui element p prin js</p>
+
+<input id="click" type="button" onclick="myFunction()" value="Schimba culoarea">
+<hr>
+<h3>Atribute</h3>
+<p id="atrb" class="getatribcl">Get the value of the class attribute of an p element</p>
+<div class="tooglecl" id="myImg">Toogle</div>
+<button onclick="myAnim()">Schimba</button>
+
+<ul id="lists"> 
+	<li>0</li>
+	<li>1</li>
+	<li>2</li>
+</ul>
+
+<ul id="lista">Adaugati 5 elemente li cu text de la 1-5 la lista</ul>
+
+<script type="text/javascript" src="tema2iunie.js"></script>
+</body>
+</html>
